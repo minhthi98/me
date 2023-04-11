@@ -1,0 +1,315 @@
+.container {
+    background-color: white;
+    margin: 0 auto;
+    width: 1350px;
+}
+.container>nav {
+    background-color: white;
+    width: 100%;
+    height: 71px;
+    position: fixed;
+    top:10px;
+    margin-top: -10px;
+    z-index: 18;
+}
+
+.trai>ul>li {
+    float: left;
+    list-style: none;
+}
+#login{
+    margin-right: 5px;
+    border-radius: 3px;
+}
+
+#login:hover{
+    background-color: rgb(96, 175, 221);
+    
+}
+#login>a{
+    color: black;
+    
+    font-size: 1.2em;
+}
+#register:hover{
+    background-color: rgb(96, 175, 221);
+}
+#register{
+    border-radius: 3px;
+    margin-right: 20px;
+    background-color: rgba(3, 3, 240, 0.685);
+}
+#register>a{
+    color: white;
+    
+    font-size: 1.2em;
+}
+.phai>ul>li {
+    float: right;
+    list-style: none;
+    padding: 10px 10px;
+
+}
+.phai>ul>li>p{
+    position: absolute;
+    bottom: 12px;
+    right: 200px;
+}
+.phai>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.trai>ul>li>a>img {
+    margin-left: -50px;
+    margin-top: -26px;
+}
+.trai>ul>li>a:hover{
+    color: blue;
+}
+.trai>ul>li>a {
+    display: block;
+
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-size: larger;
+    padding: 10px 10px;
+}
+header{
+    position: relative;
+    top: 50px;
+    background-image: url("image/new-banner-list-courses.png");
+    height: 380px;
+    padding-left: 50px;
+    color: white;
+}
+.title-wrap_rate_and_author{
+    position: absolute;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    top: 70px;
+}
+#name_author{
+    position: absolute;
+    left: 65px;
+    top:15px
+}
+#number_hv{
+    position: absolute;
+    left: 190px
+}
+.rate{
+    position: absolute;
+    left: 330px
+}
+.infor_author img{
+    height: 45px;
+    width: 45px;
+    border-radius: 155px;
+}
+.container a{
+    color: white;
+    text-decoration: none;
+}
+.title-wrap_rate_and_author{
+    clear: both;
+    white-space: nowrap;
+}
+.author{
+    display: inline;
+    padding-right: 20px;
+}
+.title-wrap__desc{
+    position: absolute;
+    width: 600px;
+    font-size: 1.2em;
+    border-right: 0.1px solid rgb(46 62 124);
+    top: 125px;
+}
+.infor-wrap{
+    position: absolute;
+    border-right: 0.1px solid rgb(46 62 124);
+    width: 350px;
+    top:120px;
+    left: 680px;
+    height: 135px;
+}
+.infor-wrap__item1{
+    position: absolute;
+    top: 10px;
+    
+}
+.infor-wrap__item2{
+    position: absolute;
+    top:70px;
+}
+.infor-wrap__item3{
+    position: absolute;
+    top: 120px;
+}
+.itemleft{
+    padding-left: -60px;
+}
+.itemright{
+    position: absolute;
+    right: -220px;
+}
+.itemright1{
+    position: absolute;
+    right: -195px;
+}
+.action-wrap{
+    position: absolute;
+    top:113px;
+    right: 145px;
+    width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(18, 158, 13);
+}
+.action-wrap span{
+    position: absolute;
+    top:30px;
+    right:9px;
+    font-size: 30px;
+}
+head{
+    padding-left: 10px;
+}
+header>span {
+    color: white;
+    font-size: 2.5em;
+    font-family: inherit;
+}
+.title_list{
+    padding-top: 20px;
+    width: 100%;
+    position: absolute;
+    border-top: 0.1px solid rgb(46 62 124);
+    white-space: nowrap;
+   left:15px;
+   top:300px;
+    height: 300px;
+}
+.list_item{
+    height: 40px;
+    display: inline;
+    padding-right: 20px; 
+    margin-top: 20px;
+}
+.list_item a{
+    padding-top: 10px;
+    margin:auto 0;
+    align-items: center;
+    color:white;
+    text-decoration: none;
+    font-size: larger;
+   
+}
+.col-md-6{
+    float: left;
+    margin-left: 30px;
+    margin-top: 100px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+.group-detail-course-item{
+    position: relative;
+    
+}
+.title-main{
+    position: absolute;
+    top:1px;
+    left: 183px;
+}
+.title{
+    position: absolute;
+    top:12px;
+    left: 183px;
+    border: 1px white solid ;
+    background-color: white;
+    border-radius: 35px;
+    padding: 5px 5px;
+    box-shadow: 2px 2px rgb(221, 218, 218);
+}
+.lession img{
+    width: 600px;
+    height: 200px;
+}
+.contain-task{
+    position: absolute;
+    top:140px;
+    left: 0px;
+    border: 1px solid;
+    border-color: rgb(201, 198, 198);
+    border-radius: 5px;
+    min-height: 70px;
+    width: 600px;
+    background-color: white;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.contain-task a{
+    color: rgb(238, 103, 79);
+    border: 1px rgb(243, 131, 123) solid;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* sử dụng font khác để làm tròn các chữ số */
+    transform: scale(0.9); /* thu nhỏ font size để làm tròn các chữ số */
+    margin-right: 7px; /* đặt khoảng cách giữa các chữ số */
+    margin-left: 7px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+
+}
+.contain-task :hover {
+    background-color: #2be9f7;
+}
+#footer {
+    width: 100%;
+    clear: both;
+    background-color: rgba(193, 233, 15, 0.24);
+    height: 200px;
+    
+}
+#footer_left {
+    float: left;
+    min-height: 180px;
+    padding-left: 20px;
+    margin-right: 120px;
+}
+
+#footer_center {
+
+    float: left;
+    width: 395px;
+    min-height: 180px;
+    padding-right: 30px;
+    margin-right: 10px;
+}
+
+#footer_right {
+    margin-right: 100px;
+    min-height: 180px;
+    width: 240px;
+    float: right;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+#footer p {
+    font-size: 0.9em;
+}
+
+#footer h3 {
+    font-weight: 550;
+}

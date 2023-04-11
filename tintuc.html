@@ -1,0 +1,402 @@
+<html>
+
+<head>
+    <style>
+        #container {
+            width: 1350px;
+            margin: auto;
+            background-color: #cef6d8d2;
+        }
+
+        #container>nav {
+            background-color: white;
+            width: 100%;
+            height: 71px;
+            position: fixed;
+            margin-top: -10px;
+            z-index: 18;
+        }
+
+        .trai>ul>li {
+            float: left;
+            list-style: none;
+        }
+
+        #login {
+            margin-right: 5px;
+            border-radius: 3px;
+        }
+
+        #login:hover {
+            background-color: rgb(96, 175, 221);
+
+        }
+
+        #login>a {
+            color: black;
+
+            font-size: 1.2em;
+        }
+
+        #register:hover {
+            background-color: rgb(96, 175, 221);
+        }
+
+        #register {
+            border-radius: 3px;
+            margin-right: 20px;
+            background-color: rgba(3, 3, 240, 0.685);
+        }
+
+        #register>a {
+            color: white;
+
+            font-size: 1.2em;
+        }
+
+        .phai>ul>li {
+            float: right;
+            list-style: none;
+            padding: 10px 10px;
+
+        }
+
+        .phai>ul>li>p {
+            position: absolute;
+            bottom: 12px;
+            right: 200px;
+        }
+
+        .phai>ul>li>a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .trai>ul>li>a>img {
+            margin-left: -50px;
+            margin-top: -26px;
+        }
+
+        .trai>ul>li>a:hover {
+            color: blue;
+        }
+
+        .trai>ul>li>a {
+            display: block;
+
+            text-decoration: none;
+            color: black;
+            margin-left: 10px;
+            font-size: larger;
+            padding: 10px 10px;
+        }
+
+        div.row1 {
+            clear: both;
+            float: left;
+            width: 440px;
+            margin: auto;
+            border-bottom: 1px solid #333;
+            border-right: 2px solid #333;
+            background-color: aquamarine;
+
+        }
+
+        div.row1 img {
+            width: 230px;
+            height: 170px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        div.row1 ul li h3 {
+            font-size: 16px;
+        }
+
+        div.row1 p {
+            overflow: hidden;
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        div.row1 li {
+            list-style-type: none;
+            border-bottom: 1px solid #333;
+            height: 270px;
+        }
+
+        div.row1 a {
+            display: block;
+            text-decoration: none;
+            text-transform: uppercase;
+            margin-top: 0px;
+            padding-bottom: 15px;
+        }
+
+        div.row2 {
+            float: left;
+            width: 720px;
+            margin: auto;
+            border-bottom: 2px solid #333;
+
+        }
+
+        div.row2 img {
+            width: 400px;
+            height: 250px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        div.row2 ul li h3 {
+            font-size: 20px;
+        }
+
+        div.row2 p {
+            overflow: hidden;
+            font-size: 20px;
+            line-height: 30px;
+
+        }
+
+        div.row2 li {
+            list-style-type: none;
+            border-bottom: 1px solid #333;
+            height: 350px;
+        }
+
+        div.row2 a {
+            display: block;
+            text-decoration: none;
+            text-transform: uppercase;
+            margin-top: 0px;
+            padding-bottom: 15px;
+        }
+
+        footer {
+            background-color: rgba(193, 233, 15, 0.24);
+            height: 180px;
+            clear: both;
+
+        }
+
+        #footer {
+            font-family: 'Courier New', Courier, monospace;
+            margin-top: 100px;
+            padding-top: 40px;
+        }
+
+        #footer_left {
+            float: left;
+            width: 380px;
+            height: 180px;
+            padding-left: 20px;
+
+        }
+
+        #footer_center {
+
+            float: right;
+            width: 395px;
+            height: 180px;
+            padding-right: 30px;
+            margin-right: 10px;
+        }
+
+        #footer_right {
+
+            height: 180px;
+            width: 240px;
+            float: right;
+            padding-left: 30px;
+            padding-right: 10px;
+        }
+
+        #footer p {
+            font-size: 0.9em;
+        }
+
+        #footer h3 {
+            font-weight: 550;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <nav>
+
+            <div class="trai">
+                <ul>
+                    <li><a href="sanpham.html"><img src="/image/z3807223048026_7a8efdcb359f2addd988518b692e7ef5.jpg" alt=""></a>
+                    </li>
+                    <li><a href="gioithieu.html">Introduce</a></li>
+                    <li><a href="sanpham.html">Trainning</a></li>
+                    <li><a href="tintuc.html">News</a></li>
+                    <li><a href="media.html">Information</a></li>
+                    <li><a href="ttcn.html">Challenge</a></li>
+                    <li><a href="video.html">Games</a></li>
+                </ul>
+            </div>
+            <div class="phai">
+                <ul>
+                    <li>
+                        <p>
+                            <select id="ngonngu">
+                                <option value="0">English</option>
+                                <option value="1">Việt Nam</option>
+                            </select>
+                        </p>
+                    </li>
+
+                    <li id="register"><a href="ttcn.html">Register</a></li>
+                    <li id="login"><a href="ttcn.html">Login</a></li>
+                </ul>
+            </div>
+
+
+        </nav>
+        <div class="row1">
+            <ul>
+                <li>
+                    <h3><a href="#">Giá xăng dầu có thể tiếp tục giảm sâu trong kỳ tới</a></h3>
+                    <img src="image/xang-dau-1657246479747796858336.jpeg" align="left">
+                    <p> Do giá dầu thế giới liên tục giảm xuống mức thấp nhất từ đầu năm đến nay nên nhiều dự đoán giá
+                        xăng dầu
+                        trong nước có thể giảm ở kỳ điều chỉnh tới.</p>
+                </li>
+
+                <li>
+                    <h3><a href="#">Bão số 4 suy yếu, mưa lớn ở Bắc Bộ - Bắc Trung Bộ còn diễn biến phức tạp</a></h3>
+                    <img src="image/baomt.jpg" align="left">
+                    <p> Cơ quan khí tượng thủy văn đưa ra nhận định, tình hình mưa lớn ở Bắc Bộ, Bắc Trung Bộ còn diễn
+                        biến
+                        phức tạp.</p>
+                </li>
+
+                <li>
+                    <h3><a href="#">BTV Nguyễn Quỳnh Hoa (VTV) lên hình chỉn chu, ngoài đời sang chảnh hết nấc</a></h3>
+                    <img src="image/btvqh.jpg" align="left">
+                    <p> Nhan sắc xinh đẹp cùng khả năng dẫn linh hoạt đã khiến BTV Nguyễn Quỳnh Hoa ghi điểm mạnh mẽ
+                        trong mắt
+                        công chúng.</p>
+                </li>
+                <li>
+                    <h3><a href="#">Cầm mic lên sẽ thành ca sĩ: Tiêu chuẩn thấp hay xem thường khán giả?</a></h3>
+                    <img src="image/chiphu.jpg" align="left">
+                    <p> Ranh giới giữa xem thường khán giả và đam mê quá gần, khiến nghệ sĩ càng hát càng chìm.</p>
+                </li>
+                <li>
+                    <h3><a href="#">Hơn 7 năm ồn ào ly hôn ông Vũ, bà Lê Hoàng Diệp Thảo khẳng định: 'Không bao giờ là
+                            quá
+                            muộn'</a></h3>
+                    <img src="image/bathao.jpg" align="left">
+                    <p> Mới đây, bà Lê Hoàng Diệp Thảo tiếp tục chia sẻ dòng trạng thái gây chú ý: "Không bao giờ là quá
+                        muộn để
+                        trở thành người bạn muốn.</p>
+                </li>
+                <li>
+                    <h3><a href="#">TIN BUỒN: Nhà giáo ưu tú Nguyễn Ngọc Ký - người viết bằng chân qua đời, bao thế hệ
+                            học trò
+                            bàng hoàng đau xót</a></h3>
+                    <img src="image/ngk.png" align="left">
+                    <p> Sáng 28/9, thông tin từ gia đình cho biết, thầy giáo - nhà giáo ưu Nguyễn Ngọc Ký qua đời tại
+                        nhà riêng
+                        ở TP Thủ Đúc, hưởng thọ 76 tuổi. </p>
+                </li>
+
+                <li>
+                    <h3><a href="#">Giải đấu LMHT cấp độ trẻ đầu tiên tại châu Á</a></h3>
+                    <img src="image/asci-2022.jpg" align="left">
+                    <p> Giải đấu LMHT cấp độ trẻ đầu tiên tại châu Á với sự góp mặt của 2 đại diện Việt Nam: Team Flash
+                        và MGN
+                        Box Esports (MBE).</p>
+                </li>
+                <li>
+                    <h3><a href="#">Cận cảnh iPhone 14 series: Có gì hấp dẫn mà khiến dân tình 'bán nhà' đề mua?</a>
+                    </h3>
+                    <img src="image/1-3940.jpg" align="left">
+                    <p> Iphone 14 đã chính thức trình làng 4 mẫu iphone: iPhone 14, iPhone 14 Plus, iPhone 14 Pro,
+                        iPhone 14 Pro
+                        Max với nhiều màu sắc lựa chọn.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="row2">
+            <ul>
+                <li>
+                    <h3><a href="#">Việt Nam 2-0 Ấn Độ (H2): Văn Toàn nâng tỷ số</a></h3>
+                    <img src="image/tin4.jpg" align="left">
+                    <p>Tổng thống Putin nói Nga vẫn sẵn sàng đàm phán với Ukraine, nhưng thêm rằng điều kiện thương
+                        lượng sẽ
+                        thay đổi theo tình hình thực tế.</p>
+                </li>
+                <li>
+                    <h3><a href="#">Phố cổ Hội An vắng tanh, dân chằng nhà tránh bão</a></h3>
+                    <img src="image/tin1.jpg" align="left">
+                    <p>QUẢNG NAMChùa Cầu khóa cửa, các địa điểm tham quan ngừng đón khách, các hộ kinh doanh lo di
+                        chuyển
+                        hoặc
+                        kê cao hàng hóa trước giờ bão Noru đổ bộ.</p>
+                </li>
+                <li>
+                    <h3><a href="#">Việt Nam 2-0 Ấn Độ (H2): Văn Toàn nâng tỷ số</a></h3>
+                    <img src="image/h8.jpg" align="left">
+                    <p>TP HCMNgay đầu hiệp hai, Việt Nam nhân đôi cách biệt trước Ấn Độ tại giải giao hữu quốc tế
+                        tối
+                        27/9.Quang
+                        Hải là tuyển thủ duy nhất của Việt Nam đang chơi bóng ở nước ngoài. </p>
+                </li>
+                <li>
+                    <h3><a href="#">Tiền vào chứng khoán giảm mạnh</a></h3>
+                    <img src="image//h7.jpg" align="left">
+                    <p>VN-Index lặp lại kịch bản giảm mạnh trong phiên chiều, nhưng khác với hôm qua, dòng tiền bắt
+                        đáy
+                        không
+                        xuất hiện nên giá trị khớp lệnh cả ngày chưa đến 10.000 tỷ đồng.</p>
+                </li>
+                <li>
+                    <h3><a href="#">Quân đội huy động xe thiết giáp sẵn sàng ứng phó bão Noru</a></h3>
+                    <img src="image/h2.jpg" align="left">
+                    <p>Quân đội huy động hơn 2.900 phương tiện tham gia cứu nạn, cứu hộ trong và sau bão Noru, trong
+                        đó có
+                        xe
+                        thiết giáp, xe đặc chủng, tàu, xuồng...</p>
+                </li>
+                <li>
+                    <h3><a href="#">Quân đội huy động xe thiết giáp sẵn sàng ứng phó bão Noru</a></h3>
+                    <img src="image/h1.jpg" align="left">
+                    <p>Quân đội huy động hơn 2.900 phương tiện tham gia cứu nạn, cứu hộ trong và sau bão Noru, trong
+                        đó có
+                        xe
+                        thiết giáp, xe đặc chủng, tàu, xuồng...</p>
+                </li>
+            </ul>
+        </div>
+        <footer>
+            <div id="footer">
+                <div id="footer_left">
+                    <h3>Bà Rịa</h3>
+                    <p> 204 tỉnh lộ 328- Xuyên Mộc - tp.Bà Rịa</br>
+                        123 Thích Quảng Đức - Xuyên Mộc - tp.Bà Rịa</br>
+                        422 Tô Hiến - Xuyên Mộc - tp.Bà Rịa</p>
+                </div>
+                <div id="footer_right">
+                    <h3>Thiết kế website: Trương Minh Thi</h3>
+                    <p>hotline: 0335.655.xxx</p>
+                </div>
+                <div id="footer_center">
+                    <h3>TP. Hồ Chí Minh</h3>
+                    <p>302 Lý Thường Kiệt - p. Tân Bình <br>
+                        17bis Huỳnh Đình Hai Phường 14 - Quận Bình Thạnh <br>
+                        332 Cao Đạt Phường 1 - Quận 5 <br>
+                        599 Sư Vạn Hạnh Phường 13 - Quận 10
+                    </p>
+                </div>
+
+            </div>
+        </footer>
+</body>
+
+</html>

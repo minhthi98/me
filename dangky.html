@@ -1,0 +1,321 @@
+<style>
+    .container {
+        background-color: rgb(236, 234, 234);
+        margin: 0 auto;
+        width: 1350px;
+    }
+
+    .container>nav {
+        background-color: white;
+        width: 100%;
+        height: 71px;
+        position: fixed;
+        margin-top: -10px;
+        z-index: 18;
+        top: 0;
+    }
+
+    .trai>ul>li {
+        float: left;
+        list-style: none;
+    }
+
+    #login {
+        margin-right: 5px;
+        border-radius: 3px;
+    }
+
+    #login:hover {
+        background-color: rgb(96, 175, 221);
+
+    }
+
+    #login>a {
+        color: black;
+
+        font-size: 1.2em;
+    }
+
+    #register:hover {
+        background-color: rgb(96, 175, 221);
+    }
+
+    #register {
+        border-radius: 3px;
+        margin-right: 20px;
+        background-color: rgba(3, 3, 240, 0.685);
+    }
+
+    #register>a {
+        color: white;
+
+        font-size: 1.2em;
+    }
+
+    .phai>ul>li {
+        float: right;
+        list-style: none;
+        padding: 10px 10px;
+
+    }
+
+    .phai>ul>li>p {
+        position: absolute;
+        bottom: 12px;
+        right: 200px;
+    }
+
+    .phai>ul>li>a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .trai>ul>li>a>img {
+        margin-left: -50px;
+        margin-top: -26px;
+    }
+
+    .trai>ul>li>a:hover {
+        color: blue;
+    }
+
+    .trai>ul>li>a {
+        display: block;
+
+        text-decoration: none;
+        color: black;
+        margin-left: 10px;
+        font-size: larger;
+        padding: 10px 10px;
+    }
+
+    #form {
+
+        height: 600px;
+        background-image: url(image/nen.jpg);
+        /* background-size: 100% 100%; */
+        background-repeat: no-repeat;
+        margin-top: 70px;
+    }
+
+    #frmdangky {
+        padding-right: 20px;
+        float:right;
+        width: 600px;
+        margin: auto;
+        background-color: aquamarine;
+        border: 2px solid rgb(0, 0, 2);
+        border-radius: 18px;
+        box-shadow: 5px 5px 5px black;
+    }
+
+    #frmdangky label {
+        width: 150px;
+        display: inline-block;
+        color: rgb(94, 42, 94);
+        padding-left: 20px;
+        font-size: 23px;
+        line-height: 120%;
+        font-weight: 550;
+    }
+
+    #frmdangky .txt {
+        width: 400px;
+        border: 1px solid rgb(1, 1, 53);
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    #frmdangky button {
+        width: 150px;
+        height: 40px;
+        font-size: 1em;
+        border-radius: 5px;
+        background-color: hwb(315 49% 8%);
+        margin-right: 25px;
+    }
+
+    #frmdangky h3 {
+        text-align: center;
+        font-size: 33px;
+        background-color: rgb(14, 14, 202);
+        margin: auto;
+        margin-top: -53px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+    }
+
+    #frmdangky .box {
+        color: black;
+        font-size: 16px;
+        width: 120px;
+        padding-left: 10px;
+
+    }
+
+    #frmdangky p {
+        padding-bottom: 18px;
+    }
+    footer {
+    width: 100%;
+    clear: both;
+    background-color: rgba(193, 233, 15, 0.24);
+    height: 200px;
+
+}
+
+#footer {
+
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 100px;
+    padding-top: 40px;
+}
+
+#footer_left {
+    float: left;
+    width: 380px;
+    min-height: 180px;
+    padding-left: 20px;
+
+}
+
+#footer_center {
+
+    float: right;
+    width: 395px;
+    min-height: 180px;
+    padding-right: 30px;
+    margin-right: 10px;
+}
+
+#footer_right {
+
+    min-height: 180px;
+    width: 240px;
+    float: right;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+#footer p {
+    font-size: 0.9em;
+}
+
+#footer h3 {
+    font-weight: 550;
+}
+</style>
+
+<body>
+    <div class="container">
+        <nav>
+
+            <div class="trai">
+                <ul>
+                    <li><a href="sanpham.html"><img src="image/z3807223048026_7a8efdcb359f2addd988518b692e7ef5.jpg" alt=""></a>
+                    </li>
+                    <li><a href="gioithieu.html">Introduce</a></li>
+                    <li><a href="sanpham.html">Trainning</a></li>
+                    <li><a href="tintuc.html">News</a></li>
+                    <li><a href="media.html">Information</a></li>
+                    <li><a href="ttcn.html">Challenge</a></li>
+                    <li><a href="video.html">Games</a></li>
+                </ul>
+            </div>
+            <div class="phai">
+                <ul>
+                    <li>
+                        <p>
+                            <select id="ngonngu">
+                                <option value="0">English</option>
+                                <option value="1">Việt Nam</option>
+                            </select>
+                        </p>
+                    </li>
+
+                    <li id="register"><a href="dangky.html">Register</a></li>
+                    <li id="login"><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+
+
+        </nav>
+        <div id="form">
+            <form action="xuly.php" id="frmdangky" method="post">
+                <p>
+                <h3>Start now</h3>
+                </p>
+                <p>
+                    <label> User name</label>
+                    <input type="text" class="txt" minlength="4" maxlength="20" placeholder="Nhập từ 4 đến 20 ký tự"
+                        name="un">
+                </p>
+                <p>
+                    <label> Passwork</label>
+                    <input type="text" class="txt" minlength="8" maxlength="20" placeholder="Nhập từ 8 đến 20 ký tự"
+                        name="pw">
+                </p>
+                <p>
+                    <label>Sex</label>
+                    <input type="radio" name="gioitinh">Female</input>
+                    <input type="radio" name="gioitinh">Male</input>
+                </p>
+                <p>
+                    <label>Your picture</label>
+                    <input type="file" class="txt" placeholer="Choose your image" name="ha">
+                </p>
+                <p>
+                    <label>Nationality</label>
+                    <select name="qt" class="txt">
+                        <option value="0">Choose your nationality</option>
+                        <option value="1">Việt Nam</option>
+                        <option value="2">USA</option>
+                        <option value="3">Bồ Đầu Nha</option>
+                        <option value="4">Hàn Quốc</option>
+                        <option value="5">Khác</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Interests</label>
+                    <label class="box"><input type="checkbox">Nhìn mưa rơi</input></label>
+                    <label class="box"><input type="checkbox">Hóng mát</input></label>
+                    <label class="box"><input type="checkbox">Nghe nhạc</input></label>
+                </p>
+                <p>
+                    <label>Notes</label>
+                    <textarea name="ghichu" cols="50" rows="10" placeholder="Nhấp vào để viết"></textarea>
+                </p>
+                <p>
+                    <label></label>
+                    <button id="btndk" type="submit">Register</button>
+                    <button id="btnreset" type="reset">Reset</button>
+                </p>
+            </form>
+        </div>
+        <footer>
+            <div id="footer">
+                <div id="footer_left">
+                    <h3>Bà Rịa</h3>
+                    <p> 204 tỉnh lộ 328- Xuyên Mộc - tp.Bà Rịa</br>
+                        123 Thích Quảng Đức - Xuyên Mộc - tp.Bà Rịa</br>
+                        422 Tô Hiến - Xuyên Mộc - tp.Bà Rịa</p>
+                </div>
+                <div id="footer_right">
+                    <h3>Thiết kế website: Trương Minh Thi</h3>
+                    <p>hotline: 0335.655.xxx</p>
+                </div>
+                <div id="footer_center">
+                    <h3>TP. Hồ Chí Minh</h3>
+                    <p>302 Lý Thường Kiệt - p. Tân Bình <br>
+                        17bis Huỳnh Đình Hai Phường 14 - Quận Bình Thạnh <br>
+                        332 Cao Đạt Phường 1 - Quận 5 <br>
+                        599 Sư Vạn Hạnh Phường 13 - Quận 10
+                    </p>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+</body>
